@@ -318,3 +318,15 @@ body {
   color: #01996D;
   margin-bottom: 40px;
 }
+.footer-menu{
+  display: flex;
+  margin: auto;
+  max-width: 1920px;
+  background: #245852;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 40px 100px;
+}
+.footer-link{
+  color: #fff;
+}
