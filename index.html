@@ -10,23 +10,32 @@
 </head>
 <body>
   <header class="header">
-    <a href="./index.html" class="header-logo">
-      <img src="img/logo.png" width="80" alt="Alivio" class="logo">
-    </a>
-    <div class="navigation">
-      <a href="#" class="navigation-link">Why Alivio</a>
-      <a href="#" class="navigation-link">Solutions</a>
-      <a href="#" class="navigation-link">Community</a>
-      <a href="#" class="navigation-link">Pricing</a>
+    <div class="left-part-menu">
+      <a href="./index.html" class="header-logo">
+        <img src="img/logo.png" width="80" alt="Alivio" class="logo">
+      </a>
+      <button class="m-menu-button">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
     </div>
-    <div class="button-group">
-      <button class="button sign-in">Sign in</button>
-      <button class="button get-started">Start trial</button>
+    <div class="m-menu">
+      <div class="navigation">
+        <a href="#" class="navigation-link">Why Alivio</a>
+        <a href="#" class="navigation-link">Solutions</a>
+        <a href="#" class="navigation-link">Community</a>
+        <a href="#" class="navigation-link">Pricing</a>
+      </div>
+      <div class="button-group">
+        <button class="button sign-in">Sign in</button>
+        <button class="button get-started">Start trial</button>
+      </div>
     </div>
   </header>
   <section class="promo-section">
     <div class="promo">
-      <h1 class="promo-title">Be aware, Manage well.</h1>
+      <h1 class="promo-title">Be aware, <br> Manage well.</h1>
       <span class="promo-text">Everyone experiences stress in different ways.
         Let Alivio guide you, in a personalized journal experience, to overcome your stress.
       </span>
@@ -41,35 +50,38 @@
         <span class="text-discr">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</span>
       </div>
     </div>
-    <div class="main-discription">
-      <div class="card-discr">
-        <div class="card-title-discr">
-          <div class="count-cards">01</div>
-          <div class="title-cards">Personalize</div>
+    <div class="slides">
+      <a size="15" class="prev" onclick="minusSlide()">&#10094;</a>
+      <div class="main-discription slider">
+        <div class="card-discr ">
+          <div class="card-title-discr">
+            <div class="count-cards">01</div>
+            <div class="title-cards">Personalize</div>
+          </div>
+          <span class="card-text-discr">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</span>
+          <div class="img-card-discr img-1">
+          </div>
         </div>
-        <span class="card-text-discr">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</span>
-        <div class="img-card-discr img-1">
+        <div class="card-discr card-discr-2 ">
+          <div class="card-title-discr">
+            <div class="count-cards">02</div>
+            <div class="title-cards">Write & Understand</div>
+          </div>
+          <span class="card-text-discr">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</span>
+          <div class="img-card-discr img-2">
+          </div>
         </div>
-      </div>
-      <div class="card-discr card-discr-2">
-        <div class="card-title-discr">
-          <div class="count-cards">02</div>
-          <div class="title-cards">Write & Understand</div>
-        </div>
-        <span class="card-text-discr">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</span>
-        <div class="img-card-discr img-2">
-        </div>
-      </div>
-      <div class="card-discr card-discr-3">
-        <div class="card-title-discr">
-          <div class="count-cards">03</div>
-          <div class="title-cards">Alivio!</div>
-        </div>
-        <span class="card-text-discr">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</span>
-        <div class="img-card-discr img-3">
+        <div class="card-discr card-discr-3 ">
+          <div class="card-title-discr">
+            <div class="count-cards">03</div>
+            <div class="title-cards">Alivio!</div>
+          </div>
+          <span class="card-text-discr">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</span>
+          <div class="img-card-discr img-3">
         </div>
       </div>
     </div>
+    <a class="next" onclick="plusSlide()">&#10095;</a></div>
   </section>
   <section class="example">
     <div class="info-example">
@@ -116,5 +128,7 @@
       <a href="#" class="navigation-link footer-link">Pricing</a>
     </div>
   </footer>
+  <script src="js/main.js"></script>
+  </script>
 </body>
 </html>
