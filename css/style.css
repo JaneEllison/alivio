@@ -583,16 +583,13 @@ body {
     color:#fff;
     margin: 20px 0;
     border-bottom: 1px solid #01996D;
-    font-size: 20px;
+    font-size: 16px;
   }
   .button.sign-in, .button.get-started{
-    font-size: 20px;
+    font-size: 16px;
   }
   .button-group{
-    width: 50%;
-  }
-  .button{
-    width:80%
+    width: 70%;
   }
   .navigation-link:hover{
     border-bottom: 1px solid #fff;
@@ -731,7 +728,7 @@ body {
     width: 170px;
   }
   .promo-title, .title-discr, .title-example, .title-custom-info{
-    font-size: 25px;
+    font-size: 22px;
     line-height: 130%;
   }
   .promo-title{
