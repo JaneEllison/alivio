@@ -723,6 +723,9 @@ body {
   .item{
     margin: 10px 20px;
   }
+  .video-example{
+    height: 250px;
+  }
   .title-custom-info{
     margin-bottom: 10px;
   }
@@ -743,5 +746,8 @@ body {
   }
   .title-cards{
     width: 120px;
+  }
+  .video-example{
+    height: 200px;
   }
 }
