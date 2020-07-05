@@ -636,6 +636,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
   .img-card-discr{
     width: 100%;
@@ -685,6 +686,9 @@ body {
   body{
     padding-top: 50px;
   }
+  .promo{
+    margin: 20px;
+  }
   .promo-text, .subtitle-example, .text-discr, .subtitle-discr, .card-text-discr, .subtitle-custom-info, .text-custom-info, .navigation-link, .button{
     font-size: 12px;
   }
@@ -716,5 +720,23 @@ body {
   }
   .title-custom-info{
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 370px){
+  .promo{
+    width: 200px;
+  }
+  .promo-title, .title-discr, .title-example, .title-custom-info{
+    font-size: 25px;
+    line-height: 130%;
+  }
+  .promo-title{
+    margin-bottom: 10px;
+  }
+  .button{
+    padding: 5px 0;
+  }
+  .title-cards{
+    width: 120px;
   }
 }

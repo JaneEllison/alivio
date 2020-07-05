@@ -22,10 +22,6 @@ if (document.documentElement.clientWidth < 768) {
   for (var i = 0; i < cards.length; i++) {
     cards[i].classList.add("item");
 }}
-else {
-  for (var i = 0; i < cards.length; i++) {
-    cards[i].classList.remove("item");
-}}
 }
 width ();
 
